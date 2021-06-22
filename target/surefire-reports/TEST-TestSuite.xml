@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.417" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/dheerajyadav/Practice1/target/test-classes:/Users/dheerajyadav/Practice1/target/classes:/Users/dheerajyadav/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/dheerajyadav/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/Users/dheerajyadav/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/dheerajyadav/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/dheerajyadav/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/dheerajyadav/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/dheerajyadav/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/dheerajyadav/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/dheerajyadav/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/dheerajyadav/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/dheerajyadav/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/dheerajyadav/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/dheerajyadav/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/dheerajyadav/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/dheerajyadav/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/dheerajyadav/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/dheerajyadav/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/dheerajyadav/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/dheerajyadav/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/dheerajyadav/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/dheerajyadav/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/dheerajyadav/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar:/Users/dheerajyadav/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.2/jackson-core-2.11.2.jar:/Users/dheerajyadav/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.2/jackson-databind-2.11.2.jar:/Users/dheerajyadav/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.2/jackson-annotations-2.11.2.jar:/Users/dheerajyadav/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar:/Users/dheerajyadav/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/dheerajyadav/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/dheerajyadav/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/dheerajyadav/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/16.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/dheerajyadav/Practice1/target/surefire/surefirebooter7264012325670122676.jar /Users/dheerajyadav/Practice1/target/surefire 2021-06-14T17-28-28_124-jvmRun1 surefire6519992320185871954tmp surefire_015906601237818582743tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/dheerajyadav/Practice1/target/test-classes:/Users/dheerajyadav/Practice1/target/classes:/Users/dheerajyadav/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/dheerajyadav/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/Users/dheerajyadav/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/dheerajyadav/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/dheerajyadav/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/dheerajyadav/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/dheerajyadav/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/dheerajyadav/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/dheerajyadav/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/dheerajyadav/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/dheerajyadav/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/dheerajyadav/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/dheerajyadav/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/dheerajyadav/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/dheerajyadav/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/dheerajyadav/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/dheerajyadav/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/dheerajyadav/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/dheerajyadav/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/dheerajyadav/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/dheerajyadav/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/dheerajyadav/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar:/Users/dheerajyadav/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.2/jackson-core-2.11.2.jar:/Users/dheerajyadav/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.2/jackson-databind-2.11.2.jar:/Users/dheerajyadav/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.2/jackson-annotations-2.11.2.jar:/Users/dheerajyadav/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar:/Users/dheerajyadav/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/dheerajyadav/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/dheerajyadav/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/dheerajyadav/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/dheerajyadav"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/16.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/dheerajyadav/Practice1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/dheerajyadav/Practice1/target/surefire/surefirebooter7264012325670122676.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="16.0.1+0"/>
+    <property name="user.name" value="dheerajyadav"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.3.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/dheerajyadav/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/7m/0qhmwhbn0c1_yzpwbxv6xj8c0000gq/T/"/>
+    <property name="java.version" value="16.0.1"/>
+    <property name="user.dir" value="/Users/dheerajyadav/Practice1"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/dheerajyadav/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="16.0.1+0"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="getApi" classname="com.meesho.test.GetApi" time="1.471">
+    <system-out><![CDATA[Suite execution started...
+Test execution started...
+Test execution started...
+Test execution started...
+Test execution started...
+Class execution Started...
+Class execution Started...
+Class execution Started...
+Class execution Started...
+Method execution started...
+Method execution started...
+Method execution started...
+Method execution started...
+Request method:	GET
+Request URI:	https://reqres.in/api/users?pageId=1
+Proxy:			<none>
+Request params:	<none>
+Query params:	pageId=1
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	PATCH
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userId=2
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Bob",
+    "job": "Automation Testing"
+}
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userId=2
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Bob",
+    "job": "Automation Testing"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Bob",
+    "job": "Automation Testing"
+}
+HTTP/1.1 200 OK
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getApiWithMultipleHeader" classname="com.meesho.test.GetApi" time="0.05">
+    <system-out><![CDATA[Method execution stopped!!!
+Method execution started...
+Request method:	GET
+Request URI:	https://reqres.in/api/users?pageId=2
+Proxy:			<none>
+Request params:	<none>
+Query params:	pageId=2
+Form params:	<none>
+Path params:	<none>
+Headers:		Cache-Control=no-cache
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="patchApi" classname="com.meesho.test.PatchApi" time="0.335">
+    <system-out><![CDATA[Method execution stopped!!!
+Class execution stopped!!!
+Test execution stopped!!!
+HTTP/1.1 200 OK
+{
+    "name": "Bob",
+    "job": "Automation Testing",
+    "updatedAt": "2021-06-14T11:58:30.740Z"
+}
+HTTP/1.1 200 OK
+{
+    "name": "Bob",
+    "job": "Automation Testing",
+    "updatedAt": "2021-06-14T11:58:30.747Z"
+}
+HTTP/1.1 201 Created
+{
+    "name": "Bob",
+    "job": "Automation Testing",
+    "id": "84",
+    "createdAt": "2021-06-14T11:58:30.741Z"
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="putApi" classname="com.meesho.test.PutApi" time="0.335"/>
+  <testcase name="postApi[Bob, Automation Testing](1)" classname="com.meesho.test.PostApi" time="0.336">
+    <system-out><![CDATA[Method execution stopped!!!
+Method execution stopped!!!
+]]></system-out>
+  </testcase>
+  <testcase name="postApi[Anne, Software engineer](2)" classname="com.meesho.test.PostApi" time="0.413">
+    <system-out><![CDATA[Method execution stopped!!!
+Class execution stopped!!!
+Class execution stopped!!!
+Test execution stopped!!!
+Test execution stopped!!!
+Method execution started...
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Anne",
+    "job": "Software engineer"
+}
+HTTP/1.1 201 Created
+{
+    "name": "Anne",
+    "job": "Software engineer",
+    "id": "195",
+    "createdAt": "2021-06-14T11:58:31.139Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="postApi[Dheeraj, Software tester](3)" classname="com.meesho.test.PostApi" time="0.364">
+    <system-out><![CDATA[Method execution stopped!!!
+Method execution started...
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Dheeraj",
+    "job": "Software tester"
+}
+HTTP/1.1 201 Created
+{
+    "name": "Dheeraj",
+    "job": "Software tester",
+    "id": "900",
+    "createdAt": "2021-06-14T11:58:31.558Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="postApi[Bhanu, Software Test Engineer](4)" classname="com.meesho.test.PostApi" time="0.455">
+    <system-out><![CDATA[Method execution stopped!!!
+Method execution started...
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Bhanu",
+    "job": "Software Test Engineer"
+}
+HTTP/1.1 201 Created
+{
+    "name": "Bhanu",
+    "job": "Software Test Engineer",
+    "id": "617",
+    "createdAt": "2021-06-14T11:58:31.923Z"
+}
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,308 @@
+Suite execution started...
+Test execution started...
+Test execution started...
+Test execution started...
+Test execution started...
+Class execution Started...
+Class execution Started...
+Class execution Started...
+Class execution Started...
+Method execution started...
+Method execution started...
+Method execution started...
+Method execution started...
+Request method:	GET
+Request URI:	https://reqres.in/api/users?pageId=1
+Proxy:			<none>
+Request params:	<none>
+Query params:	pageId=1
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	PATCH
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userId=2
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Bob",
+    "job": "Automation Testing"
+}
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userId=2
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Bob",
+    "job": "Automation Testing"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Bob",
+    "job": "Automation Testing"
+}
+HTTP/1.1 200 OK
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+Method execution stopped!!!
+Method execution started...
+Request method:	GET
+Request URI:	https://reqres.in/api/users?pageId=2
+Proxy:			<none>
+Request params:	<none>
+Query params:	pageId=2
+Form params:	<none>
+Path params:	<none>
+Headers:		Cache-Control=no-cache
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+Method execution stopped!!!
+Class execution stopped!!!
+Test execution stopped!!!
+HTTP/1.1 200 OK
+{
+    "name": "Bob",
+    "job": "Automation Testing",
+    "updatedAt": "2021-06-14T11:58:30.740Z"
+}
+HTTP/1.1 200 OK
+{
+    "name": "Bob",
+    "job": "Automation Testing",
+    "updatedAt": "2021-06-14T11:58:30.747Z"
+}
+HTTP/1.1 201 Created
+{
+    "name": "Bob",
+    "job": "Automation Testing",
+    "id": "84",
+    "createdAt": "2021-06-14T11:58:30.741Z"
+}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Method execution stopped!!!
+Method execution stopped!!!
+Method execution stopped!!!
+Class execution stopped!!!
+Class execution stopped!!!
+Test execution stopped!!!
+Test execution stopped!!!
+Method execution started...
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Anne",
+    "job": "Software engineer"
+}
+HTTP/1.1 201 Created
+{
+    "name": "Anne",
+    "job": "Software engineer",
+    "id": "195",
+    "createdAt": "2021-06-14T11:58:31.139Z"
+}
+Method execution stopped!!!
+Method execution started...
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Dheeraj",
+    "job": "Software tester"
+}
+HTTP/1.1 201 Created
+{
+    "name": "Dheeraj",
+    "job": "Software tester",
+    "id": "900",
+    "createdAt": "2021-06-14T11:58:31.558Z"
+}
+Method execution stopped!!!
+Method execution started...
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Bhanu",
+    "job": "Software Test Engineer"
+}
+HTTP/1.1 201 Created
+{
+    "name": "Bhanu",
+    "job": "Software Test Engineer",
+    "id": "617",
+    "createdAt": "2021-06-14T11:58:31.923Z"
+}
+Method execution stopped!!!
+Class execution stopped!!!
+Test execution stopped!!!
+Suite execution stopped!!!

@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Api Methods Suite" verbose="1" parallel="methods" thread-count="4">
+    <test name="Get Api Test">
+        <classes>
+            <class name="com.meesho.test.GetApi"/>
+            <!--<class name="com.meesho.test.PostApi"/>-->
+        </classes>
+    </test>
+
+    <test name="Post Api Test">
+        <classes>
+            <class name="com.meesho.test.PostApi"/>
+        </classes>
+    </test>
+    <test name="Patch Api Test">
+        <classes>
+            <class name="com.meesho.test.PatchApi"/>
+        </classes>
+    </test>
+    <test name="Put Api Test">
+        <classes>
+            <class name="com.meesho.test.PutApi"/>
+        </classes>
+    </test>
+</suite>

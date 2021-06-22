@@ -1,0 +1,10 @@
+com/meesho/core/dataprovider/UserDataProvider.class
+com/meesho/core/request/HttpGet.class
+com/meesho/core/request/RequestSpec.class
+com/meesho/core/request/HttpPut.class
+com/meesho/core/common/Constant.class
+com/meesho/core/request/Processor.class
+com/meesho/core/dto/UsersDto.class
+com/meesho/core/dto/UsersDto$UsersDtoBuilder.class
+com/meesho/core/request/HttpPatch.class
+com/meesho/core/request/HttpPost.class

@@ -1,0 +1,5 @@
+com/meesho/test/PostApi.class
+com/meesho/test/PutApi.class
+com/meesho/test/GetApi.class
+com/meesho/test/BaseTest.class
+com/meesho/test/PatchApi.class
